@@ -28,8 +28,8 @@ export function CTAForm() {
   return (
     <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
       <Input
-        type="email"
-        placeholder="Введите ваш email"
+        type="text"
+        placeholder="Имя или контакт для связи"
         value={email}
         onChange={(e) => setEmail(e.target.value)}
         required
